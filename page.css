@@ -1,0 +1,58 @@
+body, html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    align-items: center;
+    height: 100vh;
+    perspective: 1000px;
+    overflow: hidden;
+}
+
+.room{
+    position: relative;
+    transform-style: preserve-3d;
+    transform: rotateX(10deg) rotateY(0deg);
+    perspective: 800px;
+    height: 800px;
+    width: 500px;
+
+}
+
+.backwall{
+    transform: translateZ(-400px);
+    background: rgb(231, 150, 64);
+}
+
+.leftwall{
+    position: absolute;
+    left: 400px;
+    width: 1600px;
+    height: 600px;
+    transform: rotateY(90deg) translateZ(200px);
+    background: beige;
+}
+
+.rightwall{
+    width: 400px;
+    height: 300px;
+    transform: rotateY(-90deg) translateZ(200px);
+    background: beige;
+}
+
+.floor{
+    width: 400px;
+    height: 400px;
+    background: beige;
+    transform: rotateX(90deg) translateZ(-150px);
+}
+
+.ceiling{
+    width: 400px;
+    height: 400px;
+    background: beige;
+    transform: rotateX(90deg) translateZ(150px);
+}
