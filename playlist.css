@@ -12,8 +12,9 @@ body{
     width: 280px;
     height: 60px;
     position: absolute;
-    top: 80px;
-    left: 30px;
+    top: 120px;
+    left: 310px;
+    box-shadow: 0px 4px 4px 0px;
 }
 
 .song2{
@@ -21,8 +22,9 @@ body{
     width: 280px;
     height: 60px;
     position: absolute;
-    top: 180px;
-    left: 30px;
+    top: 200px;
+    left: 310px;
+    box-shadow: 0px 4px 4px 0px;
 }
 
 .song3{
@@ -31,7 +33,8 @@ body{
     height: 60px;
     position: absolute;
     top: 280px;
-    left: 30px;  
+    left: 310px;  
+    box-shadow: 0px 4px 4px 0px;
 }
 
 .song4{
@@ -39,8 +42,9 @@ body{
     width: 280px;
     height: 60px;
     position: absolute;
-    top: 380px;
-    left: 30px;
+    top: 360px;
+    left: 310px;
+    box-shadow: 0px 4px 4px 0px;
 }
 
 .song5{
@@ -48,8 +52,9 @@ body{
     width: 280px;
     height: 60px;
     position: absolute;
-    top: 480px;
-    left: 30px;
+    top: 440px;
+    left: 310px;
+    box-shadow: 0px 4px 4px 0px;
 }
 
 .song6{
@@ -57,8 +62,9 @@ body{
     width: 280px;
     height: 60px;
     position: absolute;
-    top: 80px;
+    top: 120px;
     left: 630px;
+    box-shadow: 0px 4px 4px 0px;
 }
 
 .song7{
@@ -66,8 +72,9 @@ body{
     width: 280px;
     height: 60px;
     position: absolute;
-    top: 180px;
+    top: 200px;
     left: 630px;
+    box-shadow: 0px 4px 4px 0px;
 }
 
 .song8{
@@ -77,6 +84,7 @@ body{
     position: absolute;
     top: 280px;
     left: 630px;
+    box-shadow: 0px 4px 4px 0px;
 }
 
 .song9{
@@ -84,8 +92,9 @@ body{
     width: 280px;
     height: 60px;
     position: absolute;
-    top: 380px;
+    top: 360px;
     left: 630px;
+    box-shadow: 0px 4px 4px 0px;
 }
 
 .song10{
@@ -93,7 +102,8 @@ body{
     width: 280px;
     height: 60px;
     position: absolute;
-    top: 480px;
+    top: 440px;
     left: 630px;
+    box-shadow: 0px 4px 4px 0px;
 }
 
