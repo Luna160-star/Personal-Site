@@ -1,0 +1,99 @@
+body{
+    background-color: beige;
+    overflow: hidden;
+}
+
+.parent{
+    display: flex;
+}
+
+.song1{
+    border: 2px black solid;
+    width: 280px;
+    height: 60px;
+    position: absolute;
+    top: 80px;
+    left: 30px;
+}
+
+.song2{
+    border: 2px solid black;
+    width: 280px;
+    height: 60px;
+    position: absolute;
+    top: 180px;
+    left: 30px;
+}
+
+.song3{
+    border: 2px solid black;
+    width: 280px;
+    height: 60px;
+    position: absolute;
+    top: 280px;
+    left: 30px;  
+}
+
+.song4{
+    border: 2px solid black;
+    width: 280px;
+    height: 60px;
+    position: absolute;
+    top: 380px;
+    left: 30px;
+}
+
+.song5{
+    border: 2px solid black;
+    width: 280px;
+    height: 60px;
+    position: absolute;
+    top: 480px;
+    left: 30px;
+}
+
+.song6{
+    border: 2px solid black;
+    width: 280px;
+    height: 60px;
+    position: absolute;
+    top: 80px;
+    left: 630px;
+}
+
+.song7{
+    border: 2px solid black;
+    width: 280px;
+    height: 60px;
+    position: absolute;
+    top: 180px;
+    left: 630px;
+}
+
+.song8{
+    border: 2px solid black;
+    width: 280px;
+    height: 60px;
+    position: absolute;
+    top: 280px;
+    left: 630px;
+}
+
+.song9{
+    border: 2px solid black;
+    width: 280px;
+    height: 60px;
+    position: absolute;
+    top: 380px;
+    left: 630px;
+}
+
+.song10{
+    border: 2px solid black;
+    width: 280px;
+    height: 60px;
+    position: absolute;
+    top: 480px;
+    left: 630px;
+}
+
