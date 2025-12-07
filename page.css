@@ -13,6 +13,12 @@ body{
     background-color: beige;
 }
 
+.maindiv{
+    display: flex;
+    align-items: flex-start;
+
+}
+
 .room{
     position: relative;
     transform-style: preserve-3d;
@@ -31,13 +37,14 @@ body{
 
 #backonly{
     transform: absolute;
-    width: 575px;
-    height: 280px;
-    top: 310px;
-    left: 275px;
+    width: 448px;
+    height: 220px;
+    top: 340px;
+    left: 370px;
     border: 2px solid black;
     transform-style: preserve-3d;
     background: rgb(232, 96, 68);
+    transform: translateZ(-100px);
     
 }
 
@@ -46,7 +53,7 @@ body{
     background: rgb(232, 96, 68);
     position: absolute;
     top: 250px;
-    left: -295px;
+    left: -210px;
     border: 2px solid black;
     transform-style: preserve-3d
 }
