@@ -1,0 +1,105 @@
+body{
+    background-color: rgb(247, 134, 99);
+    overflow: hidden;
+}
+
+.main{
+    width: 900px;
+    height: 520px;
+    border-radius: 9px;
+    border: 2px solid white;
+    position: absolute;
+    top: 40px;
+    left: 200px;
+}
+
+.main2{
+    width: 800px;
+    height: 450px;
+    border-radius: 9px;
+    border: 2px solid white;
+    position: absolute;
+    top: 30px;
+    left: 55px;
+    opacity: 0.4s;
+    z-index: 2;
+    background-color: rgb(244, 206, 190);
+}
+
+.pfp{
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid white;
+    position: absolute;
+    top: 60px;
+    left: 350px;
+}
+
+.username{
+    position: absolute;
+    top: 200px;
+    left: 260px;
+    font-family: "Sour Gummy", sans-serif;
+}
+
+.password{
+    position: absolute;
+    top: 250px;
+    left: 260px;
+    font-family: "Sour Gummy", sans-serif;
+}
+
+input{
+    border: 2px solid #ffd4c4;
+    padding: 8px 10px;
+    border-radius: 10px;
+    outline: none;
+    transition: 0.3 ease;
+    font-family: "Macondo", cursive;
+
+}
+
+
+input:focus{
+    border-color: pink;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+}
+
+.back{
+    padding: 10px 25px;
+    border-radius: 15px;
+    background-color: white;
+    cursor: pointer;
+    color: black;
+    box-shadow: 0 4px 4px 0px;
+    transition: 0.3s ease;
+    font-size: 20px;
+    position: absolute;
+    top: 350px;
+    left: 100px;
+    font-family: "Sour Gummy", sans-serif;
+}
+
+.back:hover{
+    transform: translateY(-3px);
+}
+
+.login{
+    padding: 10px 25px;
+    border-radius: 15px;
+    background-color: white;
+    cursor: pointer;
+    color: black;
+    box-shadow: 0 4px 4px 0px;
+    transition: 0.3s ease;
+    font-size: 20px;
+    position: absolute;
+    top: 350px;
+    left: 580px;
+    font-family: "Sour Gummy", sans-serif;
+
+}
+
+.login:hover{
+    transform: translateY(-3px);
+}
