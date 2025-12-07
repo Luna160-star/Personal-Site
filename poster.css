@@ -1,0 +1,72 @@
+body{
+    background-color: beige;
+    overflow: hidden;
+}
+
+.parent{
+    display: flex;
+}
+
+.poster1{
+    position: absolute;
+    width: 200px;
+    height: 250px;
+    border: black 2px solid;
+    top: 45px;
+    left: 450px;
+}
+
+
+.poster2{
+    position: absolute;
+    width: 300px;
+    height: 150px;;
+    border: solid 2px black;
+    top: 45px;
+    left: 700px;
+}
+
+.poster3{
+    position: absolute;
+    width: 55px;
+    height: 75px;
+    border: solid 2px black;
+    top: 220px;
+    left: 700px;
+}
+
+.poster4{
+    position: absolute;
+    width: 55px;
+    height: 75px;
+    border: solid 2px black;
+    top: 220px;
+    left: 820px;
+}
+
+.poster5{
+    position: absolute;
+    width: 55px;
+    height: 75px;
+    border: solid 2px black;
+    top: 220px;
+    left: 940px;
+}
+
+.poster6{
+    position: absolute;
+    width: 550px;
+    height: 200px;
+    border: solid 2px black;
+    top: 330px;
+    left: 450px;
+}
+
+.sidebar{
+    position: absolute;
+    width: 200px;
+    height: 900px;
+    border: solid 2px black;
+    left: -10px;
+    top: -10px;
+}
