@@ -1,0 +1,142 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    overflow-x: hidden;
+}
+
+.section1{
+    width: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    min-height: 100vh;
+    background: rgb(97, 97, 60);
+}
+
+.project1{
+    width: 100%;
+    position: relative;
+    min-height: 100vh;
+    background: yellow;
+}
+
+.project2{
+    width: 100%;
+    position: relative;
+    min-height: 100vh;
+    background: pink;
+}
+
+.project3{
+    width: 100%;
+    position: relative;
+    min-height: 100vh;
+    background: red;
+}
+
+.project4{
+    width: 100%;
+    position: relative;
+    min-height: 100vh;
+    background: blue;
+}
+
+
+.project5{
+    width: 100%;
+    position: relative;
+    min-height: 100vh;
+    background: violet;
+}
+
+.main{
+    width: 900px;
+    height: 520px;
+    border-radius: 9px;
+    border: 2px solid white;
+    position: absolute;
+    top: 40px;
+    left: 200px;
+}
+
+.main2{
+    width: 800px;
+    height: 450px;
+    border-radius: 9px;
+    border: 2px solid white;
+    position: absolute;
+    top: 30px;
+    left: 55px;
+    opacity: 0.4;
+    z-index: 1;
+    background-color: rgb(244, 206, 190);
+
+}
+
+.main3{
+    width: 800px;
+    height: 450px;
+    border-radius: 9px;
+    border: 2px solid white;
+    position: absolute;
+    top: 30px;
+    left: 55px;
+    opacity: 0.4;
+    z-index: 1;
+    background-color: rgb(244, 206, 190);
+}
+
+.main4{
+    width: 800px;
+    height: 450px;
+    border-radius: 9px;
+    border: 2px solid white;
+    position: absolute;
+    top: 30px;
+    left: 55px;
+    opacity: 0.4;
+    z-index: 1;
+    background-color: rgb(244, 206, 190);
+}
+
+.main5{
+    width: 800px;
+    height: 450px;
+    border-radius: 9px;
+    border: 2px solid white;
+    position: absolute;
+    top: 30px;
+    left: 55px;
+    opacity: 0.4;
+    z-index: 1;
+    background-color: rgb(244, 206, 190);
+}
+
+.main6{
+    width: 800px;
+    height: 450px;
+    border-radius: 9px;
+    border: 2px solid white;
+    position: absolute;
+    top: 30px;
+    left: 55px;
+    opacity: 0.4;
+    z-index: 1;
+    background-color: rgb(244, 206, 190);
+    
+}
+
+.main7{
+    width: 800px;
+    height: 450px;
+    border-radius: 9px;
+    border: 2px solid white;
+    position: absolute;
+    top: 30px;
+    left: 55px;
+    opacity: 0.4;
+    z-index: 1;
+    background-color: rgb(244, 206, 190);
+}
