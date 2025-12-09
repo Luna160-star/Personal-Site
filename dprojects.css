@@ -7,19 +7,11 @@ body{
     overflow-x: hidden;
 }
 
-.section1{
-    width: 100%;
-    position: relative;
-    transform-style: preserve-3d;
-    min-height: 100vh;
-    background: rgb(97, 97, 60);
-}
-
 .project1{
     width: 100%;
     position: relative;
     min-height: 100vh;
-    background: yellow;
+    background: rgb(83, 161, 61);
 }
 
 .project2{
@@ -51,6 +43,13 @@ body{
     background: violet;
 }
 
+.project6{
+    width: 100%;
+    position: relative;
+    min-height: 100vh;
+    background: purple;
+}
+
 .main{
     width: 900px;
     height: 520px;
@@ -61,31 +60,18 @@ body{
     left: 200px;
 }
 
-.main2{
-    width: 800px;
-    height: 450px;
-    border-radius: 9px;
-    border: 2px solid white;
-    position: absolute;
-    top: 30px;
-    left: 55px;
-    opacity: 0.4;
-    z-index: 1;
-    background-color: rgb(244, 206, 190);
-
-}
-
 .main3{
     width: 800px;
     height: 450px;
     border-radius: 9px;
     border: 2px solid white;
     position: absolute;
-    top: 30px;
-    left: 55px;
+    top: 80px;
+    left: 245px;
     opacity: 0.4;
     z-index: 1;
     background-color: rgb(244, 206, 190);
+
 }
 
 .main4{
@@ -94,11 +80,11 @@ body{
     border-radius: 9px;
     border: 2px solid white;
     position: absolute;
-    top: 30px;
-    left: 55px;
+    top: 80px;
+    left: 245px;
     opacity: 0.4;
     z-index: 1;
-    background-color: rgb(244, 206, 190);
+    background-color: rgb(244, 206, 290);
 }
 
 .main5{
@@ -107,11 +93,11 @@ body{
     border-radius: 9px;
     border: 2px solid white;
     position: absolute;
-    top: 30px;
-    left: 55px;
+    top: 80px;
+    left: 245px;
     opacity: 0.4;
     z-index: 1;
-    background-color: rgb(244, 206, 190);
+    background-color: rgb(244, 206, 290);
 }
 
 .main6{
@@ -120,12 +106,11 @@ body{
     border-radius: 9px;
     border: 2px solid white;
     position: absolute;
-    top: 30px;
-    left: 55px;
+    top: 80px;
+    left: 245px;
     opacity: 0.4;
     z-index: 1;
-    background-color: rgb(244, 206, 190);
-    
+    background-color: rgb(244, 206, 290);
 }
 
 .main7{
@@ -134,9 +119,9 @@ body{
     border-radius: 9px;
     border: 2px solid white;
     position: absolute;
-    top: 30px;
-    left: 55px;
+    top: 80px;
+    left: 245px;
     opacity: 0.4;
     z-index: 1;
-    background-color: rgb(244, 206, 190);
+    background-color: rgb(244, 206, 290);
 }
