@@ -11,28 +11,28 @@ body{
     width: 100%;
     position: relative;
     min-height: 100vh;
-    background: rgb(83, 161, 61);
+    background: rgb(128, 132, 235);
 }
 
 .project2{
     width: 100%;
     position: relative;
     min-height: 100vh;
-    background: pink;
+    background: brown;
 }
 
 .project3{
     width: 100%;
     position: relative;
     min-height: 100vh;
-    background: red;
+    background: brown;
 }
 
 .project4{
     width: 100%;
     position: relative;
     min-height: 100vh;
-    background: blue;
+    background: brown;
 }
 
 
@@ -40,14 +40,7 @@ body{
     width: 100%;
     position: relative;
     min-height: 100vh;
-    background: violet;
-}
-
-.project6{
-    width: 100%;
-    position: relative;
-    min-height: 100vh;
-    background: purple;
+    background: brown;
 }
 
 .main{
@@ -84,7 +77,7 @@ body{
     left: 245px;
     opacity: 0.4;
     z-index: 1;
-    background-color: rgb(244, 206, 290);
+    background-color: rgb(244, 206, 190, 0.5);
 }
 
 .main5{
@@ -97,7 +90,7 @@ body{
     left: 245px;
     opacity: 0.4;
     z-index: 1;
-    background-color: rgb(244, 206, 290);
+    background-color: rgb(244, 206, 190);
 }
 
 .main6{
@@ -110,7 +103,7 @@ body{
     left: 245px;
     opacity: 0.4;
     z-index: 1;
-    background-color: rgb(244, 206, 290);
+    background-color: rgb(244, 206, 190);
 }
 
 .main7{
@@ -123,5 +116,36 @@ body{
     left: 245px;
     opacity: 0.4;
     z-index: 1;
-    background-color: rgb(244, 206, 290);
+    background-color: rgb(244, 206, 190);
+}
+
+/**********/
+
+#name1{
+    font-family: "Kaushan Script", cursive;
+    font-size: 30px;
+    background-color: rgba(241, 196, 196, 0.982);
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    z-index: 4;
+}
+
+.img1{
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid white;
+    position: absolute;
+    top: ;
+    left: ;
+
+}
+
+.img2{
+    position: absolute;
+    top: ;
+    left: ;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid white;
 }
