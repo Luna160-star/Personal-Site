@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(245, 215, 150);
+}
+
+.aboutme{
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    background-color: rgb(249, 249, 211);
+    border: 2px solid brown;
+    border-radius: 8px;
+    top: 250px;
+    left: 450px;
+    text-align: center;
+    padding-top: 30px;
+    font-family: "Macondo", cursive;
+
+
+}
+
+.aboutme:hover{
+    border: 3px solid rgb(28, 40, 176);
+    box-shadow: 0 0 10px rgba(117, 168, 238, 0.7);
+}
+
+.myprojects{
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    background-color: rgb(249, 249, 211);
+    border: 2px solid brown;
+    border-radius: 8px;
+    top: 250px;
+    left: 250px;
+    text-align: center;
+    padding-top: 30px;
+    font-family: "Macondo", cursive;
+}
+
+.myprojects:hover{
+    border: 3px solid rgb(28, 40, 176);
+    box-shadow: 0 0 10px rgba(117, 168, 238, 0.7);
+}
+
+p{
+    font-family: "Lavishly Yours", cursive;;
+    font-size: 70px;
+    position: absolute;
+    left: 210px;
+    top: 20px;
+}
+
+.main{
+    width: 900px;
+    height: 520px;
+    border-radius: 9px;
+    border: 2px solid white;
+    position: absolute;
+    top: 40px;
+    left: 200px;
+    background: rgba(254, 239, 216, 0.616);
+}
