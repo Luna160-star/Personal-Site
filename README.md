@@ -6,7 +6,7 @@ As for now, its pretty bland honestly, i've made parts of it but i need to make 
 - about me 
 - some of my projects
 
-I was so confused what to include or what not..
+I was so confused what to include or what not.. i still am honestly? but i hope its enough T-T, the complete version would be wayyy better, trust.
 
 <br>
 
