@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: rgb(245, 215, 150);
+    background-color: rgb(254, 215, 132);
 }
 
 .aboutme{
@@ -16,11 +16,12 @@ body{
     text-align: center;
     padding-top: 30px;
     font-family: "Macondo", cursive;
-
+    transition: 0.3s ease;
 
 }
 
 .aboutme:hover{
+    transform: translateY(-3px);
     border: 3px solid rgb(28, 40, 176);
     box-shadow: 0 0 10px rgba(117, 168, 238, 0.7);
 }
@@ -37,9 +38,11 @@ body{
     text-align: center;
     padding-top: 30px;
     font-family: "Macondo", cursive;
+    transition: 0.3s ease;
 }
 
 .myprojects:hover{
+    transform: translateY(-3px);
     border: 3px solid rgb(28, 40, 176);
     box-shadow: 0 0 10px rgba(117, 168, 238, 0.7);
 }

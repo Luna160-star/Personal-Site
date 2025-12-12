@@ -26,3 +26,16 @@ body{
     background-color: rgb(244, 206, 290);
 }
 
+.return{
+    font-size: 30px;
+    border-radius: 12px;
+    position: absolute;
+    top: 520px;
+    left: 25px;
+    transform: 0.3s ease;
+}
+
+.return:hover{
+    transition: translateY(-3px) translateX(3px);    
+    background-color: rgb(155, 155, 235);
+}
