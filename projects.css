@@ -1,0 +1,192 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    overflow-x: hidden;
+}
+
+.project1{
+    width: 100%;
+    position: relative;
+    min-height: 100vh;
+    background: rgb(128, 132, 235);
+}
+
+.project2{
+    width: 100%;
+    position: relative;
+    min-height: 100vh;
+    background: red;
+}
+
+.project3{
+    width: 100%;
+    position: relative;
+    min-height: 100vh;
+    background: brown;
+}
+
+.project4{
+    width: 100%;
+    position: relative;
+    min-height: 100vh;
+    background: brown;
+}
+
+.project5{
+    width: 100%;
+    position: relative;
+    min-height: 100vh;
+    background: brown;
+}
+
+.main{
+    width: 900px;
+    height: 520px;
+    border-radius: 9px;
+    border: 2px solid white;
+    position: absolute;
+    top: 40px;
+    left: 200px;
+}
+
+.main1{
+    width: 800px;
+    height: 450px;
+    border-radius: 9px;
+    border: 2px solid white;
+    position: absolute;
+    top: 80px;
+    left: 245px;
+    opacity: 0.4;
+    z-index: 1;
+    background-color: rgb(244, 206, 290);
+}
+
+.main2{
+    width: 800px;
+    height: 450px;
+    border-radius: 9px;
+    border: 2px solid white;
+    position: absolute;
+    top: 80px;
+    left: 245px;
+    opacity: 0.4;
+    z-index: 1;
+    background-color: rgb(244, 206, 290);
+
+}
+
+.main3{
+    width: 800px;
+    height: 450px;
+    border-radius: 9px;
+    border: 2px solid white;
+    position: absolute;
+    top: 80px;
+    left: 245px;
+    opacity: 0.4;
+    z-index: 1;
+    background-color: rgb(244, 206, 290);
+}
+
+.main4{
+    width: 800px;
+    height: 450px;
+    border-radius: 9px;
+    border: 2px solid white;
+    position: absolute;
+    top: 80px;
+    left: 245px;
+    z-index: 1;
+    background-color: rgb(244, 206, 290);
+}
+
+.main5{
+    width: 800px;
+    height: 450px;
+    border-radius: 9px;
+    border: 2px solid white;
+    top: 80px;
+    left: 245px;
+    z-index: 1;
+    background-color: rgb(244, 206, 290);
+}
+
+#name1{
+    font-family: "Kaushan Script", cursive;
+    font-size: 30px;
+    background-color: rgba(241, 196, 196, 0.7);
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    z-index: 4;
+}
+
+#name2{
+    font-family: "Kaushan Script", cursive;
+    font-size: 30px;
+    background-color: rgba(241, 196, 196 0.7);
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    z-index: 4;
+    
+}
+
+#name3{
+    font-family: "Kaushan Script", cursive;
+    font-size: 30px;
+    background-color: rgba(241, 196, 196, 0.7);
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    z-index: 4;
+}
+
+#name4{
+    font-family: "Kaushan Script", cursive;
+    font-size: 30px;
+    background-color: rgba(241, 196, 296, 0.7);
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    z-index: 4;
+}
+
+.img1{
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid white;
+    position: absolute;
+    top: 100px;
+    left: 650px;
+}
+
+.img2{
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid white;
+    position: absolute;
+    top: 100px;
+    left: 650px;
+}
+
+#proj{
+    font-size: 90px;
+    font-family: "Frijole", system-ui;
+    text-align: center;
+}
+
+.pname{
+    font-size: 25px;
+    font-family: "Libre Bodoni", serif;
+}
+
+.boldlet{
+    font-family: "Libre Bodono", serif;
+}
+
+
