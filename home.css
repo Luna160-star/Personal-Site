@@ -8,7 +8,8 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgb(202, 137, 57);
+  background: rgb(79, 59, 210);
+  overflow: hidden;
 }
 
 .page{
@@ -27,6 +28,8 @@ body{
 
 .floor{
   position: absolute;
+  top: -100px;
+  left: 150px;
   width: 400px;
   height: 400px;
   background: beige;
@@ -35,6 +38,8 @@ body{
 
 .left{
   position: absolute;
+  top: -100px;
+  left: 150px;
   width: 220px;
   height: 400px;
   background: rgb(68, 157, 209);
@@ -45,10 +50,12 @@ body{
 
 .right{
   position: absolute;
-  top: -220px;
+  top: -320px;
+  left: 150px;
   width: 400px;
   height: 220px;
   background: beige;
   transform-origin: bottom left;
   transform: rotateX(270deg);
 }
+
