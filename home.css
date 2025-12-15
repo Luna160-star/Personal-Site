@@ -1,0 +1,54 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(202, 137, 57);
+}
+
+.page{
+  width: 400px;
+  height: 400px;
+  perspective: 1200px;
+}
+
+.room{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  transform-style: preserve-3d;
+  transform: rotateX(55deg) rotateZ(45deg);
+}
+
+.floor{
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background: beige;
+  opacity: 0.8;
+}
+
+.left{
+  position: absolute;
+  width: 220px;
+  height: 400px;
+  background: rgb(68, 157, 209);
+  opacity: 0.8;
+  transform-origin: bottom left;
+  transform: rotateY(-90deg);
+}
+
+.right{
+  position: absolute;
+  top: -220px;
+  width: 400px;
+  height: 220px;
+  background: beige;
+  transform-origin: bottom left;
+  transform: rotateX(270deg);
+}
