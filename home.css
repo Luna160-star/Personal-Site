@@ -67,7 +67,7 @@ body{
    position: absolute;
    left: -400px;
    top: 25px;
-   font-family: "Macondo", cursive; ;
+   font-family: "Macondo", cursive; 
 }
 
 #t2{
@@ -75,7 +75,7 @@ body{
   position: absolute;
   left: -300px;
   top: 100px;
-  font-family: "Macondo", cursive;;
+  font-family: "Macondo", cursive;
 
 }
 
@@ -89,7 +89,7 @@ body{
 }
 
 .img1:hover{
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .img2{
@@ -99,4 +99,18 @@ body{
   position: absolute;
   top: 30px;
   left: 300px;
+}
+
+.gif1{
+  width: 150px;
+  height: 100px;
+  position: absolute;
+  left: 700px;
+
+}
+
+#giftext{
+  left: 680px;
+  position: absolute;
+  font-family: "Macondo", cursive;
 }
