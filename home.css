@@ -93,12 +93,42 @@ body{
 }
 
 .img2{
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
   z-index: 100;
   position: absolute;
-  top: 30px;
-  left: 300px;
+  top: 67px;
+  left: 80px;
+  transform: scale(1.1);
+}
+
+.img3{
+  height: 70px;
+  width: 90px;
+  z-index: 100;
+  position: absolute;
+  top: 145px;
+  left: 345px;
+}
+
+.img4{
+  height: 200px;
+  width: 210px;
+  z-index: 100px;
+  position: absolute;
+  top: 90px;
+  left: 450px;
+  transform: scaleY(1.01);
+}
+
+.img5{
+  height: 60px;
+  width: 70px;
+  z-index: 100px;
+  position: absolute;
+  top: 100px;
+  left: 420px;
+
 }
 
 .gif1{
