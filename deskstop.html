@@ -18,18 +18,28 @@
                 <img class="pfp" src="pfp.jpeg" width="100px" height="100px">
             </div>
             
+            <form id="loginform">
+
             <div class="username">
                 <label for="uname"> <b> Username:  </b> </label>
-                <input type="text" placeholder="Enter Username" name="uname" required>
+                <input type="text" id="username" placeholder="Enter Username" name="uname" required>
             </div>
             <div class="password">
                 <label for="password"> <b> Password:  </b> </label>
-                <input type="password" placeholder="Enter Password" name="password" required>
+                <input type="password" id="password" placeholder="Enter Password" name="password" required>
             </div>
 
-            <button class="back"> Back </button>
-            <button class="login"> Login </button>
+            <button type="submit" class="login"> Login </button>
+            <p id="textdsplay"></p>
+
+            </form>
+
+            <a href="thehome.html"> <button class="back"> Back </button> </a>
+
+    
         </div>
     </div>
+
+    <script src="desktoplogin.js"></script>
 </body>
 </html>

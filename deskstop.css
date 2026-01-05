@@ -103,3 +103,11 @@ input:focus{
 .login:hover{
     transform: translateY(-3px);
 }
+
+#textdsplay{
+    position: absolute;
+    top: -5px;
+    left: 350px;
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 28px;
+}
