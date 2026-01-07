@@ -16,7 +16,7 @@ form.addEventListener('submit', function(e) {
         localStorage.setItem( "LoggedIN", "true");
 
         setTimeout(() =>{
-            window.location.href = "myprojects.html";
+            window.location.href = "desktopage1.html";
         }, 1000);
     
     } else{
