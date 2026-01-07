@@ -24,5 +24,5 @@ Credits: <br>
 <hr>
 
 Note: Hi, so im submitting this project late reason being, i've been continous exams, like every other day and i wasnt able to complete this, very tough time.
-Also, I'd understand if this cant get reviewed now, but I had already spent 11-12 hours this week, so I decided to just submit it.
+Also, I'd understand if this cant get reviewed now, but I had already spent 11-12 hours that week on this project, so I decided to just submit it.
 Sorry and ty <3, hope you like my site though.
