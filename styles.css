@@ -1,67 +1,192 @@
+*{
+  box-sizing: border-box;
+}
+
 body{
-    margin: 0;
-    padding: 0;
-    background-color: rgb(254, 215, 132);
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: beige;
+  overflow: hidden;
 }
 
-.aboutme{
-    width: 150px;
-    height: 50px;
-    position: absolute;
-    background-color: rgb(249, 249, 211);
-    border: 2px solid brown;
-    border-radius: 8px;
-    top: 250px;
-    left: 450px;
-    text-align: center;
-    padding-top: 30px;
-    font-family: "Macondo", cursive;
-    transition: 0.3s ease;
+.page{
+  width: 400px;
+  height: 400px;
+  perspective: 1200px;
+}
+
+.room{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  transform-style: preserve-3d;
+  transform: rotateX(55deg) rotateZ(45deg);
+}
+
+.floor{
+  position: absolute;
+  top: -100px;
+  left: 150px;
+  width: 400px;
+  height: 400px;
+  background: rgb(174, 208, 236);
+  opacity: 0.8;
+  border: 2px solid black;
+}
+
+.left{
+  position: absolute;
+  top: -100px;
+  left: 150px;
+  width: 220px;
+  height: 400px;
+  background: rgb(174, 208, 236);
+  opacity: 0.8;
+  transform-origin: bottom left;
+  transform: rotateY(-90deg);
+  border: 2px solid black;
+}
+
+.right{
+  position: absolute;
+  top: -320px;
+  left: 150px;
+  width: 400px;
+  height: 220px;
+  background: rgb(174, 208, 236);
+  border: 2px solid black;
+  transform-origin: bottom left;
+  transform: rotateX(270deg);
+}
+
+#t0{
+  font-size: 20px;
+  position: absolute;
+  left: -400px;
+  top: 10px;
+  font-family: "`Macondo", cursive;
 
 }
 
-.aboutme:hover{
-    transform: translateY(-3px);
-    border: 3px solid rgb(28, 40, 176);
-    box-shadow: 0 0 10px rgba(117, 168, 238, 0.7);
+#t1{
+   font-size: 45px;
+   position: absolute;
+   left: -400px;
+   top: 25px;
+   font-family: "Macondo", cursive; 
 }
 
-.myprojects{
-    width: 150px;
-    height: 50px;
-    position: absolute;
-    background-color: rgb(249, 249, 211);
-    border: 2px solid brown;
-    border-radius: 8px;
-    top: 250px;
-    left: 250px;
-    text-align: center;
-    padding-top: 30px;
-    font-family: "Macondo", cursive;
-    transition: 0.3s ease;
+#t2{
+  font-size: 20px;
+  position: absolute;
+  left: -300px;
+  top: 100px;
+  font-family: "Macondo", cursive;
+
 }
 
-.myprojects:hover{
-    transform: translateY(-3px);
-    border: 3px solid rgb(28, 40, 176);
-    box-shadow: 0 0 10px rgba(117, 168, 238, 0.7);
+#t3{
+  font-size: 20px;
+  position: absolute;
+  left: -300px;
+  top: 140px;
+  font-family: "Macondo", cursive;
 }
 
-p{
-    font-family: "Lavishly Yours", cursive;;
-    font-size: 70px;
-    position: absolute;
-    left: 210px;
-    top: 20px;
+#li1, #li2, #li3, #li4{
+   background-color: rgb(151, 151, 232);
 }
 
-.main{
-    width: 900px;
-    height: 520px;
-    border-radius: 9px;
-    border: 2px solid white;
-    position: absolute;
-    top: 40px;
-    left: 200px;
-    background: rgba(254, 239, 216, 0.616);
+.img1{
+  height: 200px;
+  width: 200px;
+  z-index: 100;
+  position: absolute;
+  top: 20px;
+  left: 220px;
+}
+
+
+.img2{
+  height: 156px;
+  width: 350px;
+  z-index: 100;
+  position: absolute;
+  top: 70px;
+  left: -26px;
+  transform: scale(1.3) rotateZ(-4.2deg);
+  
+}
+
+.img3{
+  height: 70px;
+  width: 90px;
+  z-index: 100;
+  position: absolute;
+  top: 145px;
+  left: 345px;
+}
+
+.img4{
+  height: 200px;
+  width: 210px;
+  z-index: 100px;
+  position: absolute;
+  top: 90px;
+  left: 450px;
+  transform: scaleY(1.01);
+}
+
+.img5{
+  height: 60px;
+  width: 70px;
+  z-index: 100px;
+  position: absolute;
+  top: 100px;
+  left: 420px;
+
+}
+
+#img6{
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  top: 140px;
+  left: 549px;
+}
+
+#img7{
+  height: 140px;
+  width: 180px;
+  position: absolute;
+  top: -25px;
+  left: 400px;
+}
+
+#img8{
+  height: 48px;
+  width: 72px;
+  position: absolute;
+  top: 90px;
+  left: 256px;
+  z-index: 10000;
+}
+
+
+
+.gif1{
+  width: 150px;
+  height: 100px;
+  position: absolute;
+  left: 700px;
+
+}
+
+#giftext{
+  left: 680px;
+  position: absolute;
+  font-family: "Macondo", cursive;
 }
