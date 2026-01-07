@@ -2,18 +2,19 @@
 Personal Site
 
 <h3> Features: </h3>
-As for now, its pretty bland honestly, i've made parts of it but i need to make it complete to attach it properly and make it look like an actual site, so its pretty much only: <br>
-- about me 
-- some of my projects
-
-I was so confused what to include or what not.. i still am honestly? but i hope its enough T-T, the complete version would be wayyy better, trust.
+So, its my personal site, you can click on the objects below: <br>
+ <li> About Me: Laptop 
+ <li> Projects: Laptop 
+ <li> Posters: Wall 
+ <li> Playlists: Phone 
 
 <br>
-
-but there is a lot to it yet, i'll be finishing this off in w15.
-Thank you!
-
+You can click on objects and then find out more from each section or just click the links.
 <hr>
+
+For, the password and username, you can type anything and itd open, but if you wanna be specific: <br>
+username: sunshine
+password: siegeuser@00
 
 Credits: <br>
 -myself ig? <br>
@@ -22,4 +23,6 @@ Credits: <br>
 
 <hr>
 
-Note: Also, since im working same project in w15, there'll be some changes occuring in the meantime with the project T-T
+Note: Hi, so im submitting this project late reason being, i've been continous exams, like every other day and i wasnt able to complete this, very tough time.
+Also, I'd understand if this cant get reviewed now, but I had already spent 11-12 hours this week, so I decided to just submit it.
+Sorry and ty <3, hope you like my site though.
